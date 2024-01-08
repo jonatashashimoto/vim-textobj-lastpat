@@ -31,12 +31,12 @@ endif
 
 call textobj#user#plugin('lastpat', {
 \      'n': {
-\        'select': ['an', 'in'],
+\        'select': ['a/', 'i/'],
 \        '*select-function*': 's:select_n',
 \        '*sfile*': expand('<sfile>')
 \      },
 \      'N': {
-\        'select': ['aN', 'iN'],
+\        'select': ['a?', 'i?'],
 \        '*select-function*': 's:select_N',
 \        '*sfile*': expand('<sfile>')
 \      },
